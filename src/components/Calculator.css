@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #13999e;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.wrapper{
+    background-color: #2a7c80;
+    width: 389px;
+    height: 400px;
+    margin: 18px auto;
+}
+.numRow{
+    background-color: #222623;
+    height: 70px;
+    display: flex;
+    flex-basis: space-around;
+
+}
+.numBox{
+    
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 2px auto;
+    border-radius: 5px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+.inputRow{
+    background-color: #222623;
+    height: 60px;
+
+}
+.display{
+    height: 40px;
+    width:368px;
+    margin:12px 11px;
+    text-align: right;
+    border-radius: 5px;
+    color:black;
+    font-size:20px;
+    font-weight:bold;
+}
+.allclear{
+    background-color: #9e0c05;
+    width: 174px;
+   
+
+}
+.delete{
+    background-color: #9e0c05;
+    width: 74px;
+   
+
+}
+.digits{
+    background-color: #506655;
+    width: 74px;
+
+} 
+.zero{
+    background-color: #506655;
+    width: 174px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 2px auto;
+    border-radius: 5px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+
+}
